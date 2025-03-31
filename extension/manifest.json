@@ -1,0 +1,13 @@
+{
+  "name": "Flirt",
+  "version": "0.0.1",
+  "description": "Generate Flirting Jokes With Flirt",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "image.png"
+    }
+  },
+  "permissions": ["activeTab", "storage"]
+}
