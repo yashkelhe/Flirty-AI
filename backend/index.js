@@ -59,6 +59,7 @@ app.get("/", async (req, res) => {
               Listen! Give me a UNIQUE, fresh, and bold flirty joke in English.
 
 The joke should be dark, witty, and slightly twisted, but still playful.
+Use simple and natural words—nothing too fancy or complicated.
 
 It should feel modern, edgy, and something a girl would enjoy.
 
