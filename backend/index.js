@@ -1,11 +1,11 @@
 const express = require("express");
 const { GoogleGenAI } = require("@google/genai");
 const cors = require("cors");
-
+require("dotenv").config({ path: "./.env" });
 const app = express();
 const PORT = process.env.PORT || 8080;
 const ai = new GoogleGenAI({
-  apiKey: "AIzaSyAa3679uLTaOE_EYF77aK6VAUDXxCBrMsc", // Replace with a secure storage method
+  apiKey: process.env.GEMINI_API, // Replace with a secure storage method
 });
 
 app.use(cors());
