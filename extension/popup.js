@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   async function fetchJoke() {
     try {
-      const response = await fetch("http://localhost:8080/");
+      const response = await fetch("https://flirty-ai.onrender.com");
       const joke = await response.text();
       console.log(joke);
       jokes.innerText = joke;
